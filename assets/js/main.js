@@ -1,8 +1,25 @@
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+/*global $, jQuery, alert*/
+$(document).ready(function() {
+
+  'use strict';
+	
+  // ========================================================================= //
+  //  Typed Js
+  // ========================================================================= //
+
+  var typed = $(".typed");
+
+  $(function() {
+    typed.typed({
+      strings: ["An Entrepreneur.", "A Programmer.", "A Tech-Enthusiast.", "A Photographer.", "An Investor."],
+      typeSpeed: 100,
+      loop: true,
+    });
+  });
+
+  
+});
+
 
 (function($) {
 
