@@ -1750,15 +1750,15 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 96px;
-			height: 96px;
+			width: 113px;
+			height: 113px;
 			border-radius: 10px;
 		}
 
 			.image.avatar48 img {
-				width: 96px;
-				height: 96px;
-				border-radius: 15px;
+	width: 113px;
+	height: 113px;
+	border-radius: 30px 5px;
 			}
 
 		.image.fit {
@@ -2077,10 +2077,11 @@ input, select, textarea {
 				}
 
 	#logo {
-		position: relative;
-		margin: 1.75em 1.5em 1.5em 1.5em;
-		min-height: 48px;
-		cursor: default;
+	position: static;
+	margin: 1.75em 1.5em 1.5em 1.5em;
+	min-height: 58px;
+	cursor: default;
+	text-align: center;
 	}
 
 		#logo h1 {
