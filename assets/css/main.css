@@ -155,6 +155,7 @@ blockquote {
 p, ul, ol, dl, table {
 	margin-bottom: 2em;
 }
+
 br.clear {
 	clear: both;
 }
@@ -1373,7 +1374,7 @@ section > :last-child,  section > .container, section:last-child, article > :las
 .image.avatar48 img {
 	width: 128px;
 	height: 128px;
-	border-radius: 30px 5px;
+	border-radius: 25px;
 }
 .image.fit {
 	display: block;
