@@ -1377,8 +1377,8 @@ section > :last-child,  section > .container, section:last-child, article > :las
 	border-radius: 5px;
 }
 .image.avatar48 {
-	width: 48px;
-	height: 48px;
+	width: 128px;
+	height: 128px;
 }
 .image.avatar48 img {
 	width: 128px;
@@ -1774,7 +1774,7 @@ input[type="button"]:active,  input[type="submit"]:active,  input[type="reset"]:
 
 /* Wide */
 
-@media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (min-width: 961px) {
 /* Basic */
 
 body, input, textarea, select {
