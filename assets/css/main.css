@@ -1377,8 +1377,8 @@ section > :last-child,  section > .container, section:last-child, article > :las
 	border-radius: 5px;
 }
 .image.avatar48 {
-	width: 128px;
-	height: 128px;
+	width: 48px;
+	height: 48px;
 }
 .image.avatar48 img {
 	width: 128px;
